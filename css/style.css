@@ -1,0 +1,40 @@
+body {
+    background: #232531;
+}
+
+a, a:visited, a:active {
+    color: white;
+    text-decoration: none;
+}
+
+
+.header_wraper {
+    width: 70%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: initial;
+    justify-content: space-between;
+
+}
+.header_container {
+    display: flex;
+}
+.header_item {
+    margin: 30px 15px;
+    line-height: 30px;
+}
+.logo {
+    font-size: 1.8em;
+}
+.logo span {
+    color: #FF5733;
+}
+.buy_button {
+    margin: 20px 5px !important;
+    padding: 10px 30px;
+    border: 1px solid #3F4046;
+    color: #FF5733;
+}
+
