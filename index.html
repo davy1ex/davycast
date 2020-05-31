@@ -34,7 +34,7 @@
         </div>
     </header>
 
-    <div class="first_block site_section animate__animated animate__fadeInUp">
+    <div class="first_block site_section" data-aos="fade-up">
         <h2>Main Event 2020</h2>
 
         <div class="big_text">Interview with top hackers </div>
@@ -42,7 +42,7 @@
 
         <h2>September 6th-7th, Minnesota, United States</h2>
 
-        <div class="button_buy_ticket">
+        <div data-aos="fade-up" class="button_buy_ticket">
             buy tickets
         </div>
     </div>
@@ -51,12 +51,10 @@
         <div class="title">
             Speakers
             <div class="line"></div>
-
-            
         </div>
 
         <div class="speaker odd">
-            <div data-aos="zoom-in"class="photo"><img src="img/speakers/heckerman.jpg" alt=""></div>
+            <div data-aos="zoom-in" data-aos-duration="1000" class="photo"><img src="img/speakers/heckerman.jpg" alt=""></div>
             <div data-aos="fade-right" class="text">
                 <div class="name">Heckerman</div>
                 <div class="desc">                    
@@ -66,7 +64,7 @@
         </div>
 
         <div class="speaker even">
-            <div data-aos="zoom-in" class="photo"><img src="img/speakers/hacker2.jpg" alt=""></div>
+            <div data-aos="zoom-in" data-aos-duration="1000" class="photo"><img src="img/speakers/hacker2.jpg" alt=""></div>
             <div data-aos="fade-right" class="text">
                 <div class="name">Hacker</div>
                 <div class="desc">                    
@@ -76,7 +74,7 @@
         </div>
 
         <div class="speaker odd">
-            <div data-aos="zoom-in" class="photo"><img src="img/speakers/hacker3.jpg" alt=""></div>
+            <div data-aos="zoom-in" data-aos-duration="1000" class="photo"><img src="img/speakers/hacker3.jpg" alt=""></div>
             <div data-aos="fade-right" class="text">
                 <div class="name">Hacer</div>
                 <div class="desc">                    
@@ -86,14 +84,14 @@
         </div>        
     </div>
 
-    <div class="site_section">
+    <div data-aos="fade-up" class="site_section">
         <div class="title">
             Programs
             <div class="line"></div>
         </div>
 
         <div class="programs_list">
-            <div class="list_item">
+            <div data-aos="fade-up" data-aos-duration="2000" class="list_item">
                 <div class="time">8:00 <span class="ampm">am</span></div>
                 <div class="list_desc">
                     <div class="title">How to hack someone else’s neighbor</div>
@@ -103,7 +101,7 @@
 
             <!-- <hr> -->
 
-            <div class="list_item">
+            <div data-aos="fade-up" data-aos-duration="2000" class="list_item">
                 <div class="time">12:00 <span class="ampm">am</span></div>
                 <div class="list_desc">
                     <div class="title">Hack
@@ -115,7 +113,7 @@
 
             <!-- <hr> -->
 
-            <div class="list_item">
+            <div data-aos="fade-up" data-aos-duration="2000" class="list_item">
                 <div class="time">18:00 <span class="ampm">pm</span></div>
                 <div class="list_desc">
                     <div class="title">How hac anybody?</div>
@@ -125,23 +123,29 @@
         </div>
     </div>
 
-    <div class="site_section">
+    <div data-aos="fade-up" class="site_section">
         <div class="title">
             Sponsors
             <div class="line"></div>
         </div>
         
         <div class="sponsors_list">
-            <div class="sponsor">
+            <div data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0" class="sponsor">
                 <img src="img/sponsors/logo_2.png" alt="">
             </div>
 
-            <div class="sponsor">
+            <div data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0" class="sponsor">
                 <img src="img/sponsors/logo_5.png" alt="">
             </div>
         </div>
 
-        <div class="be_a_sponsor">
+        <div data-aos="fade-up" class="be_a_sponsor">
             <a href="#">Be a Sponsor</a>
         </div>
 
@@ -183,8 +187,5 @@
     <script>
         AOS.init();
     </script>
-
-
-
 </body>
 </html>
