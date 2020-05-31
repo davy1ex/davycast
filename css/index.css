@@ -1,8 +1,12 @@
 .site_section {
     width: 70%;
-    height: 50vh;
-    padding: 10em;
+    min-height: 50vh;
+    /* padding: 10em; */
     margin: auto;
+}
+
+.first_block {
+    padding-top: 200px;
 }
 
 .big_text {
@@ -29,7 +33,7 @@
     width: 20%;
     text-align: center;
     font-size: 40px;
-    margin-bottom: 60px;
+    margin: 200px 0 60px 0;
 }
 
 .title .line {
@@ -44,8 +48,6 @@
 
 
 /* SPEAKERS */
-
-
 .speaker {
     display: flex;    
     flex-direction: row;
@@ -79,3 +81,53 @@
 .text .desc {
     margin: 5%;
 }
+/* SPEAKERS */
+
+
+
+/* LIST PROGRAMS */
+.programs_list {
+    width: 90%;
+    margin: auto;
+}
+
+.list_item:first-child {
+    border-top: 1px solid #383B4F;
+}
+
+.list_item {
+    height: 150px;
+    border-bottom: 1px solid #383B4F;
+    display: flex;
+    padding: 10px 0;
+    flex-direction: row;
+}
+
+.list_desc {
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;    
+    font-size: 25px;
+}
+
+.list_item .time, .list_item .title {
+    margin-top: 30px;
+}
+
+.list_item .time {
+    margin-right: 20%;
+    font-size: 25px;
+}
+
+.list_item .title, .list_item .author {
+    width: 100%;
+    margin: 0;
+    text-align: left;
+    
+}
+
+.list_item .author {
+    color: #CFCFD1;
+}
+/* LIST PROGRAMS */
