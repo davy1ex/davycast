@@ -3,6 +3,8 @@ body {
     font-family: "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     line-height: 1.7;
     font-weight: 300;
+
+    color: white;
 }
 
 a, a:visited, a:active {
@@ -30,10 +32,16 @@ a, a:visited, a:active {
     margin: 30px 15px;
     line-height: 30px;
 }
+
 .active, .header_item:hover {
     color: #FF5733;
     /* border-bottom: 1px solid #FF5733; */
 }
+
+.logo:hover {
+    color: white;
+}
+
 .logo {
     font-size: 1.8em;
 }

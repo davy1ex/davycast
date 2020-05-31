@@ -1,0 +1,81 @@
+.site_section {
+    width: 70%;
+    height: 50vh;
+    padding: 10em;
+    margin: auto;
+}
+
+.big_text {
+    font-size: 100px;
+    background: linear-gradient(45deg, #b20023,#FB8A01);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.button_buy_ticket {
+    width: 120px;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    background: #3F4046;
+}
+
+.button_buy_ticket:hover {
+    background: linear-gradient(45deg, #b20023,#FB8A01);
+}
+
+.title {
+    width: 20%;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.title .line {
+    /* position: absolute; */
+    left: -20%;
+    /* text-align: left; */
+    height: 2px;
+    width: 100px;
+    background: linear-gradient(45deg, #b20023,#FB8A01);
+}
+
+
+
+/* SPEAKERS */
+
+
+.speaker {
+    display: flex;    
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.even {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.speaker .photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.speaker img {
+    width: 660px;
+    width: 660px;
+}
+
+
+
+.speaker .name {
+    font-size: 40px;
+    margin-left: 2%;
+}
+
+.text .desc {
+    margin: 5%;
+}

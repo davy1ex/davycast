@@ -3,23 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WorkShop - Index page</title>
+    <title>davycast - Index page</title>
 
     <!-- styles -->
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="css/index.css">
+    
+    <link rel="stylesheet" href="css/aos.css">
+    
     <!-- scripts -->
     <script src="js/jquery.js"></script>
-    <script src="js/style.js"></script>
+    
 </head>
 <body>
     <header>
         <div class="header_wraper">
-            <div id="header_container" class="header_container">
-                <a href=""><div class="header_item logo">Work<span>shop</span></div></a>
+            <div class="header_container">
+                <a href="index.html"><div class="header_item logo">davy<span>cast</span></div></a>
             </div>
 
-            <div id="header_container" class="header_container">
+            <div class="header_container">
                 <a href="index.html"><div id="index" class="header_item">HOME</div></a>
                 <a href="about_us.html"><div id="about_us" class="header_item">ABOUT US</div></a>
                 <a href="contacts.html"><div id="speakers" class="header_item">SPEAKERS</div></a>
@@ -30,6 +33,63 @@
             </div>
         </div>
     </header>
+
+    <div class="site_section animate__animated animate__fadeInUp">
+        <h2>Main Event 2020</h2>
+
+        <div class="big_text">Interview with top hackers </div>
+        <div class="big_text">Conference 2020</div>
+
+        <h2>September 6th-7th, Minnesota, United States</h2>
+
+        <div class="button_buy_ticket">
+            buy tickets
+        </div>
+    </div>
+
+    <div data-aos="fade-up" class="speakers site_section" >
+        <div class="title">
+            Speakers
+            <div class="line"></div>
+
+            
+        </div>
+
+        <div class="speaker odd">
+            <div data-aos="zoom-in"class="photo"><img src="img/speakers/heckerman.jpg" alt=""></div>
+            <div data-aos="fade-right" class="text">
+                <div class="name">Heckerman</div>
+                <div class="desc">                    
+                    "The Pentagon hacked in a foreign language lesson from boredom" - these are the first words of this dude as soon as we met him live. Hacks in the morning for lunch and in the evening everything that moves
+                </div>
+            </div>
+        </div>
+
+        <div class="speaker even">
+            <div data-aos="zoom-in" class="photo"><img src="img/speakers/hacker2.jpg" alt=""></div>
+            <div data-aos="fade-right" class="text">
+                <div class="name">Hacker</div>
+                <div class="desc">                    
+                    This guy's motto is "People are stupid, so hackers always win." Simple and concise.
+                </div>
+            </div>
+        </div>
+
+        <div class="speaker odd">
+            <div data-aos="zoom-in" class="photo"><img src="img/speakers/hacker3.jpg" alt=""></div>
+            <div data-aos="fade-right" class="text">
+                <div class="name">Hacer</div>
+                <div class="desc">                    
+                    This guy is not as simple as it seems. Hacks everything: from toasters to your mothers. Hacknet and you, if ordered as a black hacker
+                </div>
+            </div>
+        </div>        
+    </div>
+
     <script src="js/style.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
