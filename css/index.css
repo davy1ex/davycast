@@ -65,10 +65,12 @@
     justify-content: center;
     width: 50%;
 }
-
 .speaker img {
-    width: 660px;
-    width: 660px;
+    width: 100%;
+}
+
+.speaker .text {
+    width: 70%;
 }
 
 
@@ -80,6 +82,20 @@
 
 .text .desc {
     margin: 5%;
+}
+
+@media only screen and (max-width: 800px) {
+    .speaker {
+        flex-direction: column;
+    }
+    .speaker .photo {
+        width: 100%;
+    }
+    
+    .speaker .text {
+        width: 100%;
+        text-align: center;
+    }
 }
 /* SPEAKERS */
 
